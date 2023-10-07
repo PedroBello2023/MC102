@@ -1,2 +1,2 @@
-# MC102
+# MC102 (Unicamp)
  Laboratórios, de cunho avaliativo, da disciplina de Algorítimo e Programaçao de Computadores, do Curso de Matemática Aplicada e Computacional - UNICAMP.
