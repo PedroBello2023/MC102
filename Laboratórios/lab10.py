@@ -22,13 +22,6 @@ def faztroca(l,c,mapa, valor_atual, valor_seguinte, indice):
     mapa[l][c] = aux
     return valor_atual, mapa
    
-
-
-
-
-
-
-
 # Leitura do mapa
 n, m = [int(i) for i in input().split()]
 list = []
