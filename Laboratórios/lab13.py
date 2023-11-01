@@ -10,12 +10,20 @@ numeros = [int(i) for i in input().split()]
 
 # Ordenação dos amigos do 495
 n_crescente = []
+n_decrescente = []
 for num in numeros:
     n = str(num)
     n = ''.join(sorted(n))
     n = int(n)
     n_crescente.append(n)
 print(n_crescente)
+for num in numeros:
+    n = str(num)
+    n = ''.join(sorted(n, reverse = True))
+    n = int(n)
+    n_decrescente.append(n)
+print(n_decrescente)
+
 
 
 # Impressão da resposta
