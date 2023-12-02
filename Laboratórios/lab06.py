@@ -73,5 +73,10 @@ else:
         print(f'Media laboratorios:', format(media, ".1f").replace(".", ","))
         print('Situacao: Reprovado no exame')
         print("Nota final:", format(nota_final, ".1f").replace(".", ","))
+print(soma_ex)
+print(numerador_ex)
+print(soma_pesos_ex)
+print(media_ex)
+print(nota_final)
         
 
